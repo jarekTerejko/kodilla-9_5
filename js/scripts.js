@@ -1,5 +1,8 @@
 var btn = document.getElementsByClassName('button');
-	for (i = 0; i <= btn.length; i++) {
-		var txt = btn[i].innerText;
-		alert(txt);
+var txt = '';
+	for (var i = 0; i < btn.length; i++) {
+		txt += btn[i].innerText + ' ';
+		
 	}
+
+alert(txt);
